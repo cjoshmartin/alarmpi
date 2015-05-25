@@ -12,8 +12,8 @@ except:
 
 birthday = 'null'
 
-if int(time.strftime("%m%d")) == 929 :
-  birthday = 'Ski with Pete'
+if int(time.strftime("%m%d")) == 525 :
+  birthday = 'God! Josh you are getting old!'
 #if int(time.strftime("%m%d")) == 129 :
 #  birthday = 'dummy'
 

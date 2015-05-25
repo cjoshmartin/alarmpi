@@ -18,6 +18,6 @@ Watch the video here:  http://youtu.be/julETnOLkaU
 
 *** and finally to set your alarm for 733AM Mon-Fri
 
-  crontab -e 33 7 * * 1-5 sudo python /home/pi/sound_the_alarm.pi
+  crontab -e 33 7 * * 1-5 sudo python /home/pi/sound_the_alarm.py
 
 Thanks again to Michael Kidd for adding the config file and giving this project a real structure.  
