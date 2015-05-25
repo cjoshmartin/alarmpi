@@ -13,17 +13,19 @@ except:
 birthday = 'null'
 
 if int(time.strftime("%m%d")) == 525 :
-  birthday = 'Joshua '
+  birthday = 'Joshua, '
 #if int(time.strftime("%m%d")) == 129 :
 #  birthday = 'dummy'
 
 print birthday
 
+#put birthday here!
+
 # reads out birthday
 if birthday == 'null':
   birthday = ''
 else:
-  birthday = 'God! ' + birthday + 'Your getting old!  ' 
+  birthday = 'God!... ' + birthday + 'Your getting old!  ' 
 
 if Config.get('main','debug') == str(1):
   print birthday
