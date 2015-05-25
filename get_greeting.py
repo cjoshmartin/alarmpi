@@ -30,7 +30,7 @@ if int(time.strftime("%H")) >= 17:
 gmt = 'Good ' + period + ', '
 
 # reads date and time 
-day = ' it\'s ' + now + '.  '
+day = ' it\'s ' + now + '....  '
 
 greeting = gmt + Config.get('greeting','name') + day
 
