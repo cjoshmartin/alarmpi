@@ -25,7 +25,7 @@ print birthday
 if birthday == 'null':
   birthday = ''
 else:
-  birthday = 'God!... ' + birthday + 'Your getting old!...  ' 
+  birthday = 'God!... ' + birthday + 'It\'s your Birthday...Your getting old!...  ' 
 
 if Config.get('main','debug') == str(1):
   print birthday
