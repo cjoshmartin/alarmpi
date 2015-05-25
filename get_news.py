@@ -9,8 +9,8 @@ except:
   raise Exception('Sorry, Failed reading alarm.config file.')
 
 try: 
-    #rss = feedparser.parse('http://feeds.bbci.co.uk/news/world/rss.xml')
-    rss = feedparser.parse('http://createfeed.fivefilters.org/extract.php?url=twitter.com%2Ffivefilters%2F&item=.original-tweet&item_url=a.tweet-timestamp&item_desc=.content&item_title=0&strip=.stream-item-footer%2C.username%2C.js-short-timestamp')
+    rss = feedparser.parse('http://feeds.bbci.co.uk/news/world/rss.xml')
+    #rss = feedparser.parse('http://createfeed.fivefilters.org/extract.php?url=twitter.com%2Ffivefilters%2F&item=.original-tweet&item_url=a.tweet-timestamp&item_desc=.content&item_title=0&strip=.stream-item-footer%2C.username%2C.js-short-timestamp')
 
 
 #for entry in rss.entries[:4]:
@@ -32,8 +32,8 @@ try:
     newsfeed = newsfeed.encode('utf-8')
 
 # Today's news from BBC
-    #news = 'And now, The latest stories from the World section of the BBC News.  ' + newsfeed
-   news = 'And now, Test tweets...  ' + newsfeed 
+    news = 'And now, The latest stories from the World section of the BBC News.  ' + newsfeed
+   #news = 'And now, Test tweets...  ' + newsfeed 
 
 except rss.bozo:
     news = 'Failed to reach BBC News'
