@@ -24,7 +24,7 @@ try:
     if decimal_price > 0:
       btc_price += ' and ' + bsn.n2w(int(decimal_price)) + ' cents'
 
-    btc = 'The value of 1 bitcoin is: ' + btc_price + '.  '
+    btc = 'The value of 1 bitcoin is: ' + btc_price + '...  '
 except Exception:
     btc = 'Failed to connect to coinbase.  '
 
