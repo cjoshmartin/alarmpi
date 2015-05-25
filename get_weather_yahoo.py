@@ -51,7 +51,7 @@ try:
 
     if conditions != forecast_conditions:
         conditions = conditions + ' becoming ' + forecast_conditions 
-    weather_yahoo = 'Weather for today is ' + str(conditions) + ' currently ' + str(current) + ' degrees with a low of ' + str(current_low) + ' and a high of ' + str(current_high) + '.  '
+    weather_yahoo = 'Weather for today is ' + str(conditions) + ' currently ' + str(current) + ' degrees with a low of ' + str(current_low) + ' and a high of ' + str(current_high) + '....  '
 
 # Wind uses the Beaufort scale
     if Config.get('weather_yahoo','metric') == str(1) and Config.get('weather_yahoo','wind') == str(1):
